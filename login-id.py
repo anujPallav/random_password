@@ -34,8 +34,8 @@ def session_start():
     print('session will end afer 10 seconds')
     time.sleep(5)
     create_emp_password()
+     #--------------- session End --------------------------------#
     time.sleep(10)
-    #--------------- session End --------------------------------#
     session_end()
 
 session_start()
